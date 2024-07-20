@@ -1,0 +1,130 @@
+version: "3.1"
+
+intents:
+  - greeting
+  - goodbye
+  - creator
+  - name
+  - hours
+  - number
+  - course
+  - fees
+  - location
+  - accommodation
+  - event
+  - document
+  - size
+  - syllabus
+  - library
+  - infrastructure
+  - cafe
+  - placement
+  - sem
+  - admission
+  - random
+  - swear
+  - sports
+  - salutation
+  - task
+
+entities:
+  - time
+  - phone_number
+  - course
+  - fee_type
+  - location
+  - accommodation_type
+  - event_type
+  - document_type
+  - size_type
+  
+responses:
+  utter_accommodation:
+  - text: 'For accommodation details, visit <a target="_blank" href="https://accommodation.leeds.ac.uk/">here</a>'
+  
+  utter_admission:
+  - text: "Application can also be submitted online through the University's <a target=\"_blank\" href=\"https://www.leeds.ac.uk/international-applying/doc/international-how-to-apply\">website</a>"
+  
+  utter_cafe:
+  - text: "There are so many great places to relax, refresh and refuel on campus and for more information visit <a target=\"_blank\" href=\"https://www.leeds.ac.uk/campus-directory/doc/food-on-campus\">here</a>."
+  
+  utter_course:
+  - text: "Our university offers more than 160 courses. For more details visit <a target=\"_blank\" href=\"https://courses.leeds.ac.uk/\">here</a>"
+  
+  utter_creator:
+  - text: "A University of Leeds student"
+  
+  utter_document:
+  - text: "To know more about documents required, visit <a target=\"_blank\" href=\"https://www.leeds.ac.uk/undergraduate-how-to-apply/doc/apply\">here</a>"
+  
+  utter_event:
+  - text: "For event details, visit <a target=\"_blank\" href=\"https://www.leeds.ac.uk/events\">here</a>"
+  
+  utter_fees:
+  - text: "For fee details, visit <a target=\"_blank\" href=\"https://www.leeds.ac.uk/undergraduate-fees/doc/fees-undergraduate-fees\">here</a>"
+  
+  utter_goodbye:
+  - text: "Sad to see you go :("
+  - text: "Talk to you later"
+  - text: "Goodbye!"
+  - text: "Come back soon!"
+  
+  utter_greeting:
+  - text: "Hello!"
+  - text: "Good to see you again!"
+  - text: "Hi there, how can I help?"
+  
+  utter_hours:
+  - text: "The university is open 24 hours everyday!"
+  
+  utter_infrastructure:
+  - text: "Our University has excellent infrastructure. The campus is clean. Good IT Labs with good speed of internet connection"
+  
+  utter_library:
+  - text: "There are 4 libraries on campus. Opening hours are from 8am to 12am and for more information visit <a target=\"_blank\" href=\"https://library.leeds.ac.uk/\">here</a>"
+  
+  utter_location:
+  - text: "We are <a target=\"_blank\" href=\"https://maps.app.goo.gl/iG2XPE4HnoW5z6P57\"> here</a>"
+  
+  utter_name:
+  - text: "You can call me Leo."
+  - text: "I'm Leo"
+  - text: "I am a chatbot named Leo."
+  - text: "I am your helper. My name is Leo"
+  
+  utter_number:
+  - text: "You can us contact at: 0113 243 1751"
+  
+  utter_placement:
+  - text: "To know more about placements & internships, visit <a target=\"_blank\" href=\"https://www.leeds.ac.uk/alumni-volunteering/doc/internships-placements\">here</a>"
+  
+  utter_random:
+  - text: "I am not program for this, please ask appropriate query"
+  
+  utter_salutation:
+  - text: "I am glad I could help you"
+  - text: "Welcome! Anything else i can assist you with?"
+  
+  utter_sem:
+  - text: "Here is the Academic Calendar <a target=\"_blank\" href=\"https://students.leeds.ac.uk/info/10106/academic-dates-and-deadlines\">website</a>"
+  
+  utter_size:
+  - text: "Our university is about 100 acres in size and the highest point of the building is 57 metres tall"
+  
+  utter_sports:
+  - text: "Our university encourages an all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=\"https://sport.leeds.ac.uk/\">here</a>"
+  
+  utter_swear:
+  - text: "Please use appropriate language"
+  - text: "Maintaining decency would be appreciated"
+  
+  utter_syllabus:
+  - text: "Timetables are provided directly to the students OR To know more about syllabus visit <a target=\"_blank\" href=\"https://students.leeds.ac.uk/info/10103/module-enrolment/777/modules-and-programmes-explained\">here</a>"
+  
+  utter_task:
+  - text: "I can answer to low-intermediate questions regarding University of Leeds"
+  - text: "You can ask me questions regarding University of Leeds, and i will try to answer them"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

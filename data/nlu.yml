@@ -1,0 +1,293 @@
+version: "3.1"
+
+nlu:
+- intent: greeting
+  examples: |
+    - Hi
+    - How are you?
+    - Is anyone there?
+    - Hello
+    - Good day
+    - What's up
+    - how are ya
+    - heyy
+    - whatsup
+    - ??? ??? ??
+
+- intent: goodbye
+  examples: |
+    - cya
+    - see you!
+    - bye bye!
+    - See you later!
+    - Goodbye!
+    - I am Leaving
+    - Bye!
+    - Have a Good day!
+    - talk to you later!
+    - ttyl
+    - i got to go
+    - gtg
+
+- intent: creator
+  examples: |
+    - what is the name of your developer
+    - what is the name of your creator
+    - what is the name of the developers
+    - what is the name of the creators
+    - who created you
+    - your developers
+    - your creators
+    - who are your developers
+    - developers
+    - you are made by
+    - you are made by whom
+    - who created you
+    - who create you
+    - creators
+    - who made you
+    - who designed you
+
+- intent: name
+  examples: |
+    - name
+    - your name
+    - do you have a name
+    - what are you called
+    - what is your name
+    - what should I call you
+    - whats your name?
+    - what are you
+    - who are you
+    - who is this
+    - what am i chatting to
+    - who am i talking to
+    - what are you
+
+- intent: hours
+  examples: |
+    - timing of university
+    - what is [university timing](time)
+    - working days
+    - when are you guys open
+    - what are your [hours](time)
+    - [hours of operation](time)
+    - when is the university open
+    - university timing
+    - what about university timing
+    - is university open on saturday
+    - tell something about university timing
+    - what is the [university hours](time)
+    - when should i come to university
+    - when should i attend university
+    - what is my university time
+    - university timing
+    - timing university
+
+- intent: number
+  examples: |
+    - more info
+    - contact info
+    - how to contact university
+    - [university telephone number](phone_number)
+    - [university number](phone_number)
+    - What is your [contact no](phone_number)
+    - [Contact number?](phone_number)
+    - how to call you
+    - [university phone no?](phone_number)
+    - how can i contact you
+    - Can i get your [phone number](phone_number)
+    - how can i call you
+    - [phone number](phone_number)
+    - [phone no](phone_number)
+    - call
+
+- intent: course
+  examples: |
+    - list of [courses](course)
+    - list of [courses offered](course)
+    - list of [courses offered in](course)
+    - what are the [courses offered in your university](course)?
+    - courses?
+    - [courses offered](course)
+    - [courses offered in University of Leeds](course)
+    - [courses offered in university of leeds](course)
+    - [courses offered in uni of leeds](course)
+    - [courses you offer](course)
+    - branches?
+    - [courses available at uni?](course)
+    - [branches available at your university?](course)
+    - what are the [courses in uni](course)?
+    - what are [branches in uni](course)?
+    - what are [courses in uni](course)?
+    - [branches available in uni](course)?
+    - can you tell me the [courses available in uni](course)?
+    - can you tell me the [branches available in uni](course)?
+
+- intent: fees
+  examples: |
+    - information about [fee](fee_type)
+    - tell me the [fee](fee_type)
+    - university [fee](fee_type)
+    - [fee per semester](fee_type)
+    - what is the [fee of each semester](fee_type)
+    - what is the [fees of each year](fee_type)
+    - how much is the [fees](fee_type)
+    - [fees for first year](fee_type)
+    - [What is the fees of accommodation](fee_type)
+    - [accommodation fees](fee_type)
+    - [fees for AC room](fee_type)
+    - [fees for non-AC room](fee_type)
+    - [fees for Ac room for girls](fee_type)
+    - [fees for non-Ac room for girls](fee_type)
+    - [fees for Ac room for boys](fee_type)
+    - [fees for non-Ac room for boys](fee_type)
+
+- intent: location
+  examples: |
+    - where is the university [located](location)
+    - [where is university](location)
+    - [address of university](location)
+    - how to reach [university](location)
+    - [university address](location)
+    - [wheres the university](location)
+    - how can I reach [university](location)
+    - what is the [address of university](location)
+    - [address](location)
+    - how can i get to the [university](location)
+
+- intent: accommodation
+  examples: |
+    - [accommodation facility](accommodation_type)
+    - [accommodation service](accommodation_type)
+    - [accommodation location](location)
+    - Does [university provide accommodation](accommodation_type)
+    - Is there any [accommodation](accommodation_type)
+    - Where is [accommodation](location)
+    - what is the [accommodation fee](fee_type)
+    - what is the [accommodation address](location)
+    - how far is [accommodation from university](distance)
+    - [where is the accommodation](location)
+    - how big is the [accommodation](size)
+    - [distance between university and accommodation](distance)
+    - [distance between accommodation and university](distance)
+    - [where can i stay](accommodation_type)
+
+- intent: event
+  examples: |
+    - [events organised](event_type)
+    - list of [events](event_type)
+    - list of [events organised in university](event_type)
+    - What [events are conducted in university](event_type)
+    - Are there any [event held at university](event_type)
+    - what are the [events](event_type)
+    - tell me about [events](event_type)
+
+- intent: document
+  examples: |
+    - [document to bring](document_type)
+    - [documents needed for admission](document_type)
+    - What [document are required for admission](document_type)
+    - Which [document to bring for admission](document_type)
+    - what [documents do i need](document_type)
+    - what [documents do I need for admission](document_type)
+
+- intent: size
+  examples: |
+    - [size of campus](size_type)
+    - [size of university](size_type)
+    - [building size](size_type)
+    - how tall is [leeds's university building](size_type)
+
+- intent: syllabus
+  examples: |
+    - [Syllabus for IT](subject)
+    - what is the [Information Technology syllabus](subject)
+    - [timetable](document_type)
+    - what is [IT syllabus](subject)
+    - [syllabus](document_type)
+    - What is [next lecture](event)
+
+- intent: library
+  examples: |
+    - is there any [library](facility)
+    - [library facility](facility)
+    - does the university have [library facility](facility)
+    - [university library](facility)
+    - where can i get [books](item)
+    - [Library information](information_type)
+    - Tell me about [library](facility)
+    - how many [libraries](facility_count)
+
+- intent: infrastructure
+  examples: |
+    - how is [university infrastructure](infrastructure_type)
+    - [infrastructure](infrastructure_type)
+    - [university infrastructure](infrastructure_type)
+
+- intent: cafe
+  examples: |
+    - [food facilities](facility)
+    - [cafe facilities](facility)
+    - is there any [cafe](facility)
+    - Does [university have cafe](facility)
+    - Where is [cafe](location)
+    - [Cafetaria](facility)
+    - where can i eat
+
+- intent: placement
+  examples: |
+    - What is [university placement](service)
+    - Which [companies visit](company) in university
+    - What is [average package](salary)
+    - About [placement](service)
+
+- intent: sem
+  examples: |
+    - [exam dates](date)
+    - [exam schedule](date)
+    - When is [semester exam](event)
+    - [Semester exam timetable](document_type)
+
+- intent: admission
+  examples: |
+    - what is the [process of admission](process)
+    - How to take [admission in your university](process)
+    - How to [apply](action)
+
+- intent: random
+  examples: |
+    - I love you
+    - Will you marry me
+    - Do you love me
+
+- intent: swear
+  examples: |
+    - fuck
+    - bitch
+    - shut up
+    - shit
+    - wth
+
+- intent: sports
+  examples: |
+    - [sports and games](activity_type)
+    - give [sports details](information_type)
+    - [sports infrastructure](infrastructure_type)
+    - [sports facilities](facility)
+    - do you have a [gym](facility)
+
+- intent: salutation
+  examples: |
+    - okk
+    - Thank You
+    - Good work
+    - ok
+
+- intent: task
+  examples: |
+    - what can you do
+    - what are the things you can do
+    - what can u do for me
+    - how u can help me
+    - why i should use you

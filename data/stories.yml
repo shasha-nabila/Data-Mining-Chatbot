@@ -1,0 +1,105 @@
+version: "3.1"
+
+stories:
+
+  # Story for a typical user inquiry about university details
+  - story: University information inquiry
+    steps:
+      - intent: greeting
+      - action: utter_greeting
+      - intent: course
+      - action: utter_course
+      - intent: fees
+      - action: utter_fees
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Story for user asking about campus facilities
+  - story: Campus facilities inquiry
+    steps:
+      - intent: greeting
+      - action: utter_greeting
+      - intent: library
+      - action: utter_library
+      - intent: cafe
+      - action: utter_cafe
+      - intent: sports
+      - action: utter_sports
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Story for a complete application process inquiry
+  - story: Application process conversation
+    steps:
+      - intent: greeting
+      - action: utter_greeting
+      - intent: admission
+      - action: utter_admission
+      - intent: document
+      - action: utter_document
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Story for a user asking about event and accommodation
+  - story: Event and accommodation inquiry
+    steps:
+      - intent: greeting
+      - action: utter_greeting
+      - intent: event
+      - action: utter_event
+      - intent: accommodation
+      - action: utter_accommodation
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Story for providing university contact and location information
+  - story: Contact and location inquiry
+    steps:
+      - intent: greeting
+      - action: utter_greeting
+      - intent: location
+      - action: utter_location
+      - intent: number
+      - action: utter_number
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Story for a complex interaction involving multiple details
+  - story: Comprehensive university details request
+    steps:
+      - intent: greeting
+      - action: utter_greeting
+      - intent: infrastructure
+      - action: utter_infrastructure
+      - intent: placement
+      - action: utter_placement
+      - intent: syllabus
+      - action: utter_syllabus
+      - intent: sem
+      - action: utter_sem
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Story for handling inappropriate language
+  - story: Handling swearing
+    steps:
+      - intent: swear
+      - action: utter_swear
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Story for a random inquiry
+  - story: Random query handling
+    steps:
+      - intent: random
+      - action: utter_random
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Additional story for user feedback and closure
+  - story: User feedback and closing conversation
+    steps:
+      - intent: salutation
+      - action: utter_salutation
+      - intent: goodbye
+      - action: utter_goodbye

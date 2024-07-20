@@ -1,0 +1,153 @@
+version: "3.1"
+
+rules:
+
+  # Rule for greeting the user
+  - rule: Greet the user
+    steps:
+      - intent: greeting
+      - action: utter_greeting
+
+  # Rule for saying goodbye
+  - rule: Say goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # Rule for providing creator information
+  - rule: Inform about creator
+    steps:
+      - intent: creator
+      - action: utter_creator
+
+  # Rule for handling chatbot's name queries
+  - rule: Respond to name queries
+    steps:
+      - intent: name
+      - action: utter_name
+
+  # Rule for providing university hours
+  - rule: Provide university hours
+    steps:
+      - intent: hours
+      - action: utter_hours
+
+  # Rule for providing contact number
+  - rule: Provide contact number
+    steps:
+      - intent: number
+      - action: utter_number
+
+  # Rule for providing course information
+  - rule: Provide course information
+    steps:
+      - intent: course
+      - action: utter_course
+
+  # Rule for providing fee details
+  - rule: Provide fee details
+    steps:
+      - intent: fees
+      - action: utter_fees
+
+  # Rule for providing location information
+  - rule: Provide location information
+    steps:
+      - intent: location
+      - action: utter_location
+
+  # Rule for providing accommodation details
+  - rule: Provide accommodation details
+    steps:
+      - intent: accommodation
+      - action: utter_accommodation
+
+  # Rule for providing event details
+  - rule: Provide event details
+    steps:
+      - intent: event
+      - action: utter_event
+
+  # Rule for providing document requirements
+  - rule: Provide document requirements
+    steps:
+      - intent: document
+      - action: utter_document
+
+  # Rule for providing campus size information
+  - rule: Provide campus size information
+    steps:
+      - intent: size
+      - action: utter_size
+
+  # Rule for providing syllabus details
+  - rule: Provide syllabus details
+    steps:
+      - intent: syllabus
+      - action: utter_syllabus
+
+  # Rule for providing library information
+  - rule: Provide library information
+    steps:
+      - intent: library
+      - action: utter_library
+
+  # Rule for providing infrastructure details
+  - rule: Provide infrastructure details
+    steps:
+      - intent: infrastructure
+      - action: utter_infrastructure
+
+  # Rule for providing cafe information
+  - rule: Provide cafe information
+    steps:
+      - intent: cafe
+      - action: utter_cafe
+
+  # Rule for providing placement details
+  - rule: Provide placement details
+    steps:
+      - intent: placement
+      - action: utter_placement
+
+  # Rule for providing semester information
+  - rule: Provide semester information
+    steps:
+      - intent: sem
+      - action: utter_sem
+
+  # Rule for providing admission process
+  - rule: Provide admission process
+    steps:
+      - intent: admission
+      - action: utter_admission
+
+  # Rule for random interactions
+  - rule: Handle random interaction
+    steps:
+      - intent: random
+      - action: utter_random
+
+  # Rule for responding to swearing
+  - rule: Respond to swearing
+    steps:
+      - intent: swear
+      - action: utter_swear
+
+  # Rule for providing sports information
+  - rule: Provide sports information
+    steps:
+      - intent: sports
+      - action: utter_sports
+
+  # Rule for acknowledging salutations
+  - rule: Acknowledge salutation
+    steps:
+      - intent: salutation
+      - action: utter_salutation
+
+  # Rule for explaining tasks the chatbot can perform
+  - rule: Explain chatbot capabilities
+    steps:
+      - intent: task
+      - action: utter_task

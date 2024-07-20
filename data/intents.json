@@ -1,0 +1,528 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "How are you?",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "What's up",
+            "how are ya",
+            "heyy",
+            "whatsup",
+            "??? ??? ??"
+         ],
+         "responses": [
+            "Hello!",
+            "Good to see you again!",
+            "Hi there, how can I help?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "cya",
+            "see you",
+            "bye bye",
+            "See you later",
+            "Goodbye",
+            "I am Leaving",
+            "Bye",
+            "Have a Good day",
+            "talk to you later",
+            "ttyl",
+            "i got to go",
+            "gtg"
+         ],
+         "responses": [
+            "Sad to see you go :(",
+            "Talk to you later",
+            "Goodbye!",
+            "Come back soon"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "creator",
+         "patterns": [
+            "what is the name of your developer",
+            "what is the name of your creator",
+            "what is the name of the developers",
+            "what is the name of the creators",
+            "who created you",
+            "your developers",
+            "your creators",
+            "who are your developers",
+            "developers",
+            "you are made by",
+            "you are made by whom",
+            "who created you",
+            "who create you",
+            "creators",
+            "who made you",
+            "who designed you"
+         ],
+         "responses": [
+            "A University of Leeds student"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "name",
+         "patterns": [
+            "name",
+            "your name",
+            "do you have a name",
+            "what are you called",
+            "what is your name",
+            "what should I call you",
+            "whats your name?",
+            "what are you",
+            "who are you",
+            "who is this",
+            "what am i chatting to",
+            "who am i talking to",
+            "what are you"
+         ],
+         "responses": [
+            "You can call me Leo.",
+            "I'm Leo",
+            "I am a chatbot.",
+            "I am your helper"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "hours",
+         "patterns": [
+            "timing of university",
+            "what is university timing",
+            "working days",
+            "when are you guys open",
+            "what are your hours",
+            "hours of operation",
+            "when is the university open",
+            "university timing",
+            "what about university timing",
+            "is university open on saturday",
+            "tell something about university timing",
+            "what is the university hours",
+            "when should i come to university",
+            "when should i attend university",
+            "what is my university time",
+            "university timing",
+            "timing university"
+         ],
+         "responses": [
+            "The university is open 24 hours everyday!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "number",
+         "patterns": [
+            "more info",
+            "contact info",
+            "how to contact university",
+            "university telephone number",
+            "university number",
+            "What is your contact no",
+            "Contact number?",
+            "how to call you",
+            "university phone no?",
+            "how can i contact you",
+            "Can i get your phone number",
+            "how can i call you",
+            "phone number",
+            "phone no",
+            "call"
+         ],
+         "responses": [
+            "You can us contact at: 0113 243 1751"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "course",
+         "patterns": [
+            "list of courses",
+            "list of courses offered",
+            "list of courses offered in",
+            "what are the courses offered in your university?",
+            "courses?",
+            "courses offered",
+            "courses offered in University of Leeds",
+            "courses offered in university of leeds",
+            "courses offered in uni of leeds",
+            "courses you offer",
+            "branches?",
+            "courses available at uni?",
+            "branches available at your university?",
+            "what are the courses in uni?",
+            "what are branches in uni?",
+            "what are courses in uni?",
+            "branches available in uni?",
+            "can you tell me the courses available in uni?",
+            "can you tell me the branches available in uni?"
+         ],
+         "responses": [
+            "Our university offers more than 160 courses. For more details visit<a target=\"_blank\" href=/\"https://courses.leeds.ac.uk/\">here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "fees",
+         "patterns": [
+            "information about fee",
+            "information on fee",
+            "tell me the fee",
+            "university fee",
+            "fee per semester",
+            "what is the fee of each semester",
+            "what is the fees of each year",
+            "what is fee",
+            "what is the fees",
+            "how much is the fees",
+            "fees for first year",
+            "fees",
+            "about the fees",
+            "tell me something about the fees",
+            "What is the fees of accommodation",
+            "how much is the fees",
+            "accommodation fees",
+            "fees for AC room",
+            "fees for non-AC room",
+            "fees for Ac room for girls",
+            "fees for non-Ac room for girls",
+            "fees for Ac room for boys",
+            "fees for non-Ac room for boys"
+         ],
+         "responses": [
+            "For Fee detail visit <a target=\"_blank\" href=\"https://www.leeds.ac.uk/undergraduate-fees/doc/fees-undergraduate-fees\"> here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "location",
+         "patterns": [
+            "where is the university located",
+            "university is located at",
+            "where is university",
+            "where is university located",
+            "address of university",
+            "how to reach university",
+            "university location",
+            "university address",
+            "wheres the university",
+            "how can I reach university",
+            "whats is the university address",
+            "what is the address of university",
+            "address",
+            "location"
+         ],
+         "responses": [
+            "<a target=\"_blank\" href=\"https://maps.app.goo.gl/iG2XPE4HnoW5z6P57\"> here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "accommodation",
+         "patterns": [
+            "accommodation facility",
+            "accommodation service",
+            "accommodation location",
+            "accommodation address",
+            "accommodation facilities",
+            "accommodation fees",
+            "Does university provide accommodation",
+            "Is there any accommodation",
+            "Where is accommodation",
+            "do you have accommodation",
+            "do you guys have accommodation",
+            "accommodation",
+            "accommodation capacity",
+            "what is the accommodation fee",
+            "how to get in accommodation",
+            "what is the accommodation address",
+            "how far is accommodation from university",
+            "accommodation university distance",
+            "where is the accommodation",
+            "how big is the accommodation",
+            "distance between university and accommodation",
+            "distance between accommodation and university"
+         ],
+         "responses": [
+            "For accommodation detail visit <a target=\"_blank\" href=\"https://accommodation.leeds.ac.uk/\"> here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "event",
+         "patterns": [
+            "events organised",
+            "list of events",
+            "list of events organised in university",
+            "list of events conducted in university",
+            "What events are conducted in university",
+            "Are there any event held at university",
+            "Events?",
+            "functions",
+            "what are the events",
+            "tell me about events",
+            "what about events"
+         ],
+         "responses": [
+            "For event detail visit <a target=\"_blank\" href=\"https://www.leeds.ac.uk/events\"> here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "document",
+         "patterns": [
+            "document to bring",
+            "documents needed for admision",
+            "documents needed at the time of admission",
+            "documents needed during admission",
+            "documents required for admision",
+            "documents required at the time of admission",
+            "documents required during admission",
+            "What document are required for admission",
+            "Which document to bring for admission",
+            "documents",
+            "what documents do i need",
+            "what documents do I need for admission",
+            "documents needed"
+         ],
+         "responses": [
+            "To know more about document required visit <a target=\"_blank\" href=\"https://www.leeds.ac.uk/undergraduate-how-to-apply/doc/apply\"> here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "size",
+         "patterns": [
+            "size of campus",
+            "size of university",
+            "building size",
+            "how tall is leeds's university building"
+         ],
+         "responses": [
+            "My university is about 100 acres in size and the highest point of the building is 57 metres tall "
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "syllabus",
+         "patterns": [
+            "Syllabus for IT",
+            "what is the Information Technology syllabus",
+            "syllabus",
+            "timetable",
+            "what is IT syllabus",
+            "syllabus",
+            "What is next lecture"
+         ],
+         "responses": [
+            "Timetables are provided directly to the students OR To know more about syllabus visit <a target=\"_blank\" href=\"https://students.leeds.ac.uk/info/10103/module-enrolment/777/modules-and-programmes-explained\"> here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "library",
+         "patterns": [
+            "is there any library",
+            "library facility",
+            "library facilities",
+            "do you have library",
+            "does the university have library facility",
+            "university library",
+            "where can i get books",
+            "book facility",
+            "Where is library",
+            "Library",
+            "Library information",
+            "Library books information",
+            "Tell me about library",
+            "how many libraries"
+         ],
+         "responses": [
+            "There are 4 libraries on campus. Opening hours are from 8am to 12am and for more information visit <a target=\"blank\" href=\"https://library.leeds.ac.uk/\">here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "infrastructure",
+         "patterns": [
+            "how is university infrastructure",
+            "infrastructure",
+            "university infrastructure"
+         ],
+         "responses": [
+            "Our University has excellent Infrastructure. Campus is clean. Good IT Labs With good speed of internet connection"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "cafe",
+         "patterns": [
+            "food facilities",
+            "cafe facilities",
+            "cafe facility",
+            "is there any cafe",
+            "Is there a cafetaria in university",
+            "Does university have cafe",
+            "Where is cafe",
+            "where is cafetaria",
+            "cafe",
+            "Food",
+            "Cafetaria"
+         ],
+         "responses": [
+            "There are so many great places to relax, refresh and refuel on campus and for more information visit <a target=\"blank\" href=\"https://www.leeds.ac.uk/campus-directory/doc/food-on-campus\">here</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "placement",
+         "patterns": [
+            "What is university placement",
+            "Which companies visit in university",
+            "What is average package",
+            "companies visit",
+            "package",
+            "About placement",
+            "placement",
+            "recruitment",
+            "companies"
+         ],
+         "responses": [
+            "To know more about placements & internships visit <a target=\"_blank\" href=\"https://www.leeds.ac.uk/alumni-volunteering/doc/internships-placements\">here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sem",
+         "patterns": [
+            "exam dates",
+            "exam schedule",
+            "When is semester exam",
+            "Semester exam timetable",
+            "sem",
+            "semester",
+            "exam",
+            "when is exam",
+            "exam timetable",
+            "exam dates",
+            "when is semester"
+         ],
+         "responses": [
+            "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://students.leeds.ac.uk/info/10106/academic-dates-and-deadlines\">website</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "admission",
+         "patterns": [
+            "what is the process of admission",
+            "what is the admission process",
+            "How to take admission in your university",
+            "What is the process for admission",
+            "admission",
+            "admission process"
+         ],
+         "responses": [
+            "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"https://www.leeds.ac.uk/international-applying/doc/international-how-to-apply\">website</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "random",
+         "patterns": [
+            "I love you",
+            "Will you marry me",
+            "Do you love me"
+         ],
+         "responses": [
+            "I am not program for this, please ask appropriate query"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "swear",
+         "patterns": [
+            "fuck",
+            "bitch",
+            "shut up",
+            "hell",
+            "stupid",
+            "idiot",
+            "dumb ass",
+            "asshole",
+            "fucker"
+         ],
+         "responses": [
+            "Please use appropriate language",
+            "Maintaining decency would be appreciated"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sports",
+         "patterns": [
+            "sports and games",
+            "give sports details",
+            "sports infrastructure",
+            "sports facilities",
+            "information about sports",
+            "Sports activities",
+            "please provide sports and games information"
+         ],
+         "responses": [
+            "Our university encourages an all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"https://sport.leeds.ac.uk/\">here</a>"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "salutation",
+         "patterns": [
+            "okk",
+            "okie",
+            "nice work",
+            "well done",
+            "good job",
+            "thanks for the help",
+            "Thank You",
+            "its ok",
+            "Thanks",
+            "Good work",
+            "k",
+            "ok",
+            "okay"
+         ],
+         "responses": [
+            "I am glad I helped you",
+            "Welcome, anything else i can assist you with?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "task",
+         "patterns": [
+            "what can you do",
+            "what are the thing you can do",
+            "things you can do",
+            "what can u do for me",
+            "how u can help me",
+            "why i should use you"
+         ],
+         "responses": [
+            "I can answer to low-intermediate questions regarding university",
+            "You can ask me questions regarding university, and i will try to answer them"
+         ],
+         "context_set": ""
+      }
+   ]
+}
